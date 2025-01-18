@@ -7,9 +7,9 @@
 \format{
 A list with three objects
 \describe{
-  \item{data}{diet proportions by weight of key prey items in the diet of each predator}
-  \item{plot}{Diet proportion plot}
-  \item{prey}{Colors for each prey item for plotting}
+\item{data}{diet proportions by weight of key prey items in the diet of each predator}
+\item{plot}{Diet proportion plot}
+\item{prey}{Colors for each prey item for plotting}
 }
 }
 \source{

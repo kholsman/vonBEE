@@ -1,2 +1,9 @@
 ^.*\.Rproj$
 ^\.Rproj\.user$
+^\.Rproj\.user$
+^doc$
+^Meta$
+^data-raw$
+^vonBEE\.Rproj$
+^examples$
+^NotShared$

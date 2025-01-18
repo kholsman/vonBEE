@@ -27,6 +27,7 @@ sim_dat <- function(par=dlistIN_0$par,data = datIN,simulateIT=FALSE){
   logWobs = log(weight)
   H   <- exp(logH)
   K   <- exp(logK)
+  mu_d   <- exp(log_mu_d)
 
 
   nll <- 0

@@ -1,0 +1,8 @@
+"","model","r2","nll","k","n","converg_nlminb","convergence_optim","convergence","aic","aic_mult","aicc","delta_aic","aic_L","sum_aic_L","aic_wt","sum_aic_wt","evidence_wt_top","top_set"
+"m5","m5",0.800735186723824,14791.8382868889,11,35617,"false convergence (8)","convergence (0)",TRUE,29605.6765737778,1,29605.6839884667,0,1,1,1,1,1,TRUE
+"m4","m4",0.791107971258396,15401.3179814006,11,35617,"false convergence (8)","convergence (0)",TRUE,30824.6359628012,1,30824.6433774902,1218.95938902348,2.02456554463811e-265,1,2.02456554463811e-265,1,4.93933131801247e+264,FALSE
+"m2","m2",0.780628486270945,17534.7530267791,9,35617,"false convergence (8)","convergence (0)",TRUE,35087.5060535583,1,35087.511108744,5481.82712027734,0,1,0,1,Inf,FALSE
+"m1","m1",0.776946048302057,17591.8825332186,7,35617,"false convergence (8)","convergence (0)",TRUE,35197.7650664371,1,35197.7682117094,5592.08422324266,0,1,0,1,Inf,FALSE
+"m0","m0",0.76662219918151,16212.9121016944,5,35617,"relative convergence (4)",NA,FALSE,32435.8242033889,NA,NA,NA,NA,1,NA,NA,NA,NA
+"m3","m3",0.775365862815186,16988.6737672988,58,35617,"false convergence (8)","iteration limit maxit had been reached (1)",FALSE,34093.3475345977,NA,NA,NA,NA,1,NA,NA,NA,NA
+"m3_rnd","m3_rnd",0.779309969905147,15891.8147922442,9,35617,"relative convergence (4)",NA,FALSE,31801.6295844885,NA,NA,NA,NA,1,NA,NA,NA,NA

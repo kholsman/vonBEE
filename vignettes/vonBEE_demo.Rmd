@@ -1,0 +1,46 @@
+---
+title: "vonBEE demo"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{vonBEE demo}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>"
+)
+```
+
+```{r setup}
+library("vonBEE")
+```
+
+
+```{r run, include=F}
+ 
+  # LOAD data
+  # ------------------------------------
+    
+    species <- (unique(LWA$Sp))
+    species <- c("walleye pollock","Pacific cod", "arrowtooth flounder","yellowfin sole","sablefish","Pacific ocean perch")
+    regions <- unique(LWA$REGION)
+
+    # TMB Model for W @ A:
+    #-----------------------------------
+    # precompile()
+   
+   # compile_model(src_dir = "src/TMB",recompile =T,model = "VonBEEv1" )
+   
+ 
+    
+    #setwd(tmpdir)
+    
+```    
+
+    
+        
+    

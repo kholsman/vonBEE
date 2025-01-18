@@ -19,8 +19,8 @@
 #' @param sim_nitr    number of iterations for the simulate function
 #' @param recompile   recompile the .cpp file? default is 'FALSE'
 #' @param maxitr      10000  Max iterations for fitting the objective function
-#' @param nrep
-#' @param hessianIN
+#' @param nrep number of reps
+#' @param hessianIN T/F get hessian matrix
 #' @param maxeval     10000  Max evaluations for fitting the objective function
 #'
 #' @return returns  summary of the model including the mle

@@ -1,0 +1,20 @@
+---
+title: "Test vonBEE model"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{Test vonBEE model}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>"
+)
+```
+
+```{r setup}
+library("vonBEE")
+```

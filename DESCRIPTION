@@ -1,4 +1,4 @@
-Package: vonBT
+Package: vonBEE
 Type: Package
 Title: R package for fitting environmentally linked vonB growth curves (weight at age or length at age)
 Version: 0.1.0
@@ -12,7 +12,7 @@ Encoding: UTF-8
 LazyData: true
 RoxygenNote: 7.3.2
 Depends: 
-    R (>= 2.10)
+    R (>= 3.5)
 Imports: 
     cowplot,
     devtools,
@@ -33,5 +33,13 @@ Imports:
     reshape,
     RTMB,
     scales,
-    TMB,
-    wesanderson
+    TMB
+Suggests: 
+    rmarkdown,
+    knitr,
+    testthat (>= 3.0.0)
+VignetteBuilder:
+    rmarkdown, 
+    knitr
+Roxygen: list(markdown = TRUE)
+Config/testthat/edition: 3

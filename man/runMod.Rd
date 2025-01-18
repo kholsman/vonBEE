@@ -25,22 +25,28 @@ runMod(
 }
 \arguments{
 \item{dlistIN}{list of input data and parameters used for the makeADfun() dependency
-* dlistIN$parameters  list of parameters for the TMB vonBT model:
-* dlistIN$randonm   list of which parms should be radnom effects
-* dlistIN$data      list of data to read into the model
-* dlistIN$map       list of the mapp for the TMB model
-* dlistIN$phases    (defunct) phases for estimating parameters
-* dlistIN$inputs    archive of intputs for this function}
+\itemize{
+\item dlistIN$parameters  list of parameters for the TMB vonBT model:
+\item dlistIN$randonm   list of which parms should be radnom effects
+\item dlistIN$data      list of data to read into the model
+\item dlistIN$map       list of the mapp for the TMB model
+\item dlistIN$phases    (defunct) phases for estimating parameters
+\item dlistIN$inputs    archive of intputs for this function
+}}
 
 \item{src_fldr}{subfolder where model is located. Default is 'src'}
 
 \item{version}{recruitment model to run. Default is 'vonBT'}
+
+\item{nrep}{number of reps}
 
 \item{optimizer}{default is "nlminb"; can also be set to "optim"}
 
 \item{convergenceTest}{Test for failed convergence by also running the model using optim}
 
 \item{methodIN}{default is NULL, can be set to "Nelder-Mead", "BFGS", "CG", "L-BFGS-B", "SANN", or "Brent"}
+
+\item{hessianIN}{T/F get hessian matrix}
 
 \item{silentIN}{T/F , default = 'TRUE'}
 

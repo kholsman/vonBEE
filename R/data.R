@@ -34,3 +34,11 @@
 #' }
 #' @source K. Holsman et al. 2024
 "LWA"
+
+#' @title colors for plotting
+#'
+#' @description Three colors for color ramp plotting
+#'
+#' @format A unnamed character string
+#' @source K. Holsman et al. 2024
+"col"
