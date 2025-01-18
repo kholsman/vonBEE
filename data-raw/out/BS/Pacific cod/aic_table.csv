@@ -1,8 +1,0 @@
-"","model","r2","nll","k","n","converg_nlminb","convergence_optim","convergence","aic","aic_mult","aicc","delta_aic","aic_L","sum_aic_L","aic_wt","sum_aic_wt","evidence_wt_top","top_set"
-"m4","m4",0.761366904347094,17174.239569058,11,28034,"false convergence (8)","convergence (0)",TRUE,34370.479138116,1,34370.4885592851,0,1,1,1,1,1,TRUE
-"m2","m2",0.77745018939999,18463.9817024602,9,28034,"false convergence (8)","convergence (0)",TRUE,36945.9634049205,1,36945.9698279864,2575.48126870135,0,1,0,1,Inf,FALSE
-"m1","m1",0.771739221629496,18771.3177139987,7,28034,"false convergence (8)","convergence (0)",TRUE,37556.6354279974,1,37556.6394242865,3186.15086500147,0,1,0,1,Inf,FALSE
-"m0","m0",0.78479932282301,19240.3009771371,5,28034,"false convergence (8)","convergence (0)",TRUE,38490.6019542743,1,38490.6040949907,4120.11553570561,0,1,0,1,Inf,FALSE
-"m3","m3",0.775227597131167,16959.4683019031,51,28034,"false convergence (8)","iteration limit maxit had been reached (1)",FALSE,34020.9366038063,NA,NA,NA,NA,1,NA,NA,NA,NA
-"m3_rnd","m3_rnd",0.775170105624541,17010.3333823986,9,28034,"false convergence (8)","degeneracy of the Nelder–Mead simplex (10)",FALSE,34038.6667647971,NA,NA,NA,NA,1,NA,NA,NA,NA
-"m5","m5",0.766550652818681,16491.9722329586,11,28034,"false convergence (8)","degeneracy of the Nelder–Mead simplex (10)",FALSE,33005.9444659172,NA,NA,NA,NA,1,NA,NA,NA,NA

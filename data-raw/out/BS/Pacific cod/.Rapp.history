@@ -1,4 +1,0 @@
-load("/Volumes/LaCie/GitHub_cloud/vonBT/data/out/BS/Pacific cod/aic_table.Rdata")
-la()
-ls()
-aic_table
