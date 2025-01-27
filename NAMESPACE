@@ -3,6 +3,7 @@
 export(compile_model)
 export(logit)
 export(makeMap)
+export(make_vonBEE_data)
 export(qqplot)
 export(recompile)
 export(rmd2md)

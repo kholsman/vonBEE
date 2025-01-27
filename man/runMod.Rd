@@ -2,13 +2,13 @@
 % Please edit documentation in R/sub_fun_runMod.R
 \name{runMod}
 \alias{runMod}
-\title{run the vonBT()  model
-runMod() will run the vonBT() recruitment model}
+\title{run the vonBEE()  model
+runMod() will run the vonBEE() growth model}
 \usage{
 runMod(
   dlistIN,
   src_fldr = "src",
-  version = "vonBT",
+  version = "vonBEEv1",
   nrep = 3,
   optimizer = "nlminb",
   convergenceTest = TRUE,
@@ -26,7 +26,7 @@ runMod(
 \arguments{
 \item{dlistIN}{list of input data and parameters used for the makeADfun() dependency
 \itemize{
-\item dlistIN$parameters  list of parameters for the TMB vonBT model:
+\item dlistIN$parameters  list of parameters for the TMB vonBEE model:
 \item dlistIN$randonm   list of which parms should be radnom effects
 \item dlistIN$data      list of data to read into the model
 \item dlistIN$map       list of the mapp for the TMB model
@@ -36,7 +36,7 @@ runMod(
 
 \item{src_fldr}{subfolder where model is located. Default is 'src'}
 
-\item{version}{recruitment model to run. Default is 'vonBT'}
+\item{version}{recruitment model to run. Default is 'vonBEE'}
 
 \item{nrep}{number of reps}
 
@@ -66,10 +66,10 @@ runMod(
 returns  summary of the model including the mle
 }
 \description{
-run the vonBT()  model
-runMod() will run the vonBT() recruitment model
+run the vonBEE()  model
+runMod() will run the vonBEE() growth model
 }
 \examples{
-datlist <- readMake_vonBT_data("data/in/vonBT_Inputs.xlsx" )
-mm      <- runRecMod(dlistIN   = datlist, version   = 'vonBT',recompile = FALSE,simulate  = TRUE,sim_nitr  = 1000)
+#datlist <- readMake_input_data("data/in/vonBEE_Inputs.xlsx" )
+#mm      <- runMod(dlistIN   = datlist, version   = 'vonBEE',recompile = FALSE,simulate  = TRUE,sim_nitr  = 1000)
 }

@@ -1,17 +1,17 @@
-#' run the vonBT()  model
-#' runMod() will run the vonBT() recruitment model
+#' run the vonBEE()  model
+#' runMod() will run the vonBEE() growth model
 #'
 #' @param optimizer default is "nlminb"; can also be set to "optim"
 #' @param methodIN  default is NULL, can be set to "Nelder-Mead", "BFGS", "CG", "L-BFGS-B", "SANN", or "Brent"
 #' @param convergenceTest Test for failed convergence by also running the model using optim
 #' @param dlistIN   list of input data and parameters used for the makeADfun() dependency
-#' * dlistIN$parameters  list of parameters for the TMB vonBT model:
+#' * dlistIN$parameters  list of parameters for the TMB vonBEE model:
 #' * dlistIN$randonm   list of which parms should be radnom effects
 #' * dlistIN$data      list of data to read into the model
 #' * dlistIN$map       list of the mapp for the TMB model
 #' * dlistIN$phases    (defunct) phases for estimating parameters
 #' * dlistIN$inputs    archive of intputs for this function
-#' @param version     recruitment model to run. Default is 'vonBT'
+#' @param version     recruitment model to run. Default is 'vonBEE'
 #' @param src_fldr    subfolder where model is located. Default is 'src'
 #' @param silentIN    T/F , default = 'TRUE'
 #' @param se.fit      T/F , default = 'TRUE'
@@ -26,13 +26,13 @@
 #' @return returns  summary of the model including the mle
 #'
 #' @examples
-#' datlist <- readMake_vonBT_data("data/in/vonBT_Inputs.xlsx" )
-#' mm      <- runRecMod(dlistIN   = datlist, version   = 'vonBT',recompile = FALSE,simulate  = TRUE,sim_nitr  = 1000)
+#' #datlist <- readMake_input_data("data/in/vonBEE_Inputs.xlsx" )
+#' #mm      <- runMod(dlistIN   = datlist, version   = 'vonBEE',recompile = FALSE,simulate  = TRUE,sim_nitr  = 1000)
 #' @export
 runMod<-function(
     dlistIN,
     src_fldr   = "src",
-    version    = "vonBT",
+    version    = "vonBEEv1",
     nrep       = 3,
     optimizer  = "nlminb",
     convergenceTest  = TRUE,

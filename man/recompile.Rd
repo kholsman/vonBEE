@@ -16,5 +16,5 @@ list
 recompiles the model
 }
 \examples{
-recompile(model="VonBTv1")
+#recompile(model="VonBEEv1")
 }

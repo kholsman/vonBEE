@@ -6,7 +6,7 @@
 #' @return list
 #'
 #' @examples
-#' recompile(model="VonBTv1")
+#' #recompile(model="VonBEEv1")
 #' @export
 recompile<-function(model="VonBTv1"){
   if(file.exists( paste0(model,'.so')) )

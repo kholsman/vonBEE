@@ -9,7 +9,7 @@
 #'
 #' @examples
 #'
-#' maplist <- makeMap(param=parameters,estpar=estparams)
+#' #maplist <- makeMap(param=parameters,estpar=estparams)
 #'
 #' @export
 makeMap<-function(param=parameters,estpar=estparams){

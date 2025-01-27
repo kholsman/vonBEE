@@ -4,18 +4,18 @@
 \alias{sim_dat}
 \title{sim_dat()}
 \usage{
-sim_dat(par = dlistIN_0$par, data = datIN, simulateIT = FALSE)
+sim_dat(par, data, simulateIT = FALSE)
 }
 \arguments{
-\item{par}{=dlistIN_0$par}
+\item{par}{parameters, e.g., dlistIN_0$par}
 
-\item{data}{= datIN}
+\item{data}{data file to simulate from, e.g., datIN}
 
-\item{simulateIT}{=FALSE}
+\item{simulateIT}{TRUE/FALSE}
 }
 \value{
 list(out = cbind(data.frame(W_obs = exp(logWobs),W_hat = What, age=age),t(vonb_cov)),What=What,Wobs=exp(logWobs),age=age, vonb_cov=vonb_cov,d=d, Winf=Winf,nll=nll)
 }
 \description{
-simulate the TMB model in for VonBT in R
+simulate the TMB model in for VonBEE
 }

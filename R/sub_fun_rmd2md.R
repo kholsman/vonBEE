@@ -7,7 +7,7 @@
 #'
 #' @examples
 #' # convert the mymarkdown.Rmd to README.md
-#' rmd2md(rmd_fl="mymarkdown",md_fl = "README")
+#' #rmd2md(rmd_fl="mymarkdown",md_fl = "README")
 #'
 #' @export
 rmd2md <- function(rmd_fl ,md_fl = "README"){

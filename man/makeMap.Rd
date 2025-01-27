@@ -21,6 +21,6 @@ This function is a subset of makeDat()
 }
 \examples{
 
-maplist <- makeMap(param=parameters,estpar=estparams)
+#maplist <- makeMap(param=parameters,estpar=estparams)
 
 }

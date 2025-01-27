@@ -1,16 +1,18 @@
 #'sim_dat()
 #'
-#'simulate the TMB model in for VonBT in R
+#'simulate the TMB model in for VonBEE
 #'
-#' @param par =dlistIN_0$par
-#' @param data  = datIN
-#' @param simulateIT =FALSE
+#' @param par parameters, e.g., dlistIN_0$par
+#' @param data data file to simulate from, e.g., datIN
+#' @param simulateIT TRUE/FALSE
 #'
 #' @export
 #'
 #' @returns list(out = cbind(data.frame(W_obs = exp(logWobs),W_hat = What, age=age),t(vonb_cov)),What=What,Wobs=exp(logWobs),age=age, vonb_cov=vonb_cov,d=d, Winf=Winf,nll=nll)
 #'
-sim_dat <- function(par=dlistIN_0$par,data = datIN,simulateIT=FALSE){
+sim_dat <- function(par,
+                    data,
+                    simulateIT=FALSE){
 
   for(nm in names(par))
     eval(parse(text=paste0(nm,"<-par$",nm)))
@@ -24,10 +26,10 @@ sim_dat <- function(par=dlistIN_0$par,data = datIN,simulateIT=FALSE){
   logWhat <- rep(0,nobs)
   What    <- rep(0,nobs)
   logWobs <- rep(0,nobs)
-  logWobs = log(weight)
-  H   <- exp(logH)
-  K   <- exp(logK)
-  mu_d   <- exp(log_mu_d)
+  logWobs <- log(weight)
+  H     <- exp(logH)
+  K     <- exp(logK)
+  mu_d  <- exp(log_mu_d)
 
 
   nll <- 0
