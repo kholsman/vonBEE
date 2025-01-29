@@ -2,12 +2,12 @@
 
 Last updated: Oct 04, 2024  
 github repo: <https://github.com/kholsman/vonBEE>  
-<https://noaa-reem.github.io/vonBEE/>
+<https://kholsman/vonBEE/>
 
 # Install the package vonBEE
 
 ``` r
-  devtools::install_github("NOAA-REEM/vonBEE")
+  devtools::install_github("kholsman/vonBEE")
 ```
 ## This CODE REPO in development please check back soon for updates
 
