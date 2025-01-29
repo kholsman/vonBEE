@@ -12,18 +12,9 @@ github repo: <https://github.com/kholsman/vonBEE>
 
   devtools::install_github("NOAA-REEM/vonBEE")
 ```
+## This CODE REPO in development please check back soon for updates
 
-# Introduction
-
--   [ ] Add intro paragraph about climate effects on growth
-
-Water temperature is known to directly impact growth through influencing
-metabolic and digestion rates, which often scale exponentially with body
-weight and temperature (see Hanson et al., 1997 for an overview).
-
-(based on <https://seananderson.ca/2014/10/17/tmb/>)
-
-# Methods
+# Overview
 
 ## Temperature specific weight at age
 
