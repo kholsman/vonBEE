@@ -7,9 +7,6 @@ github repo: <https://github.com/kholsman/vonBEE>
 # Install the package vonBEE
 
 ``` r
-  missing <- setdiff(c("devtools","usethis"),   installed.packages()[, 1])
-  if (length(missing) > 0)  install.packages(missing)
-
   devtools::install_github("NOAA-REEM/vonBEE")
 ```
 ## This CODE REPO in development please check back soon for updates
