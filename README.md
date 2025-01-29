@@ -48,7 +48,7 @@ environmental growth model for fish weight and age data using the base
 state-space model (based on Gompertz et al. 20XX):
 
 Eq. 1
-$$ ln(\hat{W}{i}) = W^\infty{i} + \frac{1}{(1-d\_{i})}log(1-e^{-K(1-d\_{i})(A_i-t_0)})+\varepsilon_i\sim N(0,\sigma^2{obs})$$
+$$ln(\hat{W}{i}) = W^\infty{i} + \frac{1}{(1-d\_{i})}log(1-e^{-K(1-d\_{i})(A_i-t_0)})+\varepsilon_i\sim N(0,\sigma^2{obs})$$
 , where
 
 Eq. 2
